@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+h1{
+	
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+body{
+	background-color: black;
+}
+a{
+	color: white !important;
+}
+div{
+	margin-left:20px;
+	margin-top: 10px;
+	
+}
+
+body p{
+	color:green;
+}
