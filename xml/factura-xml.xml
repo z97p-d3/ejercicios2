@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<precio-venta-publico>29</precio-venta-publico>
+<factura id="001" fecha="12-03-2018">
+  <cliente>
+    <nombre>Dario</nombre>
+    <apellido>Pilacuan</apellido>
+    <telefono>0995708508</telefono>
+  </cliente>
+  <articulos id="1">
+    <descripcion>Zapatos Deportivos</descripcion>
+    <precio-unitario>20</precio-unitario>
+    <precio-final>25</precio-final>
+    <cantidad>1</cantidad>
+  </articulos>
+  <articulos id="2">
+    <descripcion>chompa</descripcion>
+    <precio-unitario>45</precio-unitario>
+    <precio-final>66</precio-final>
+    <cantidad>1</cantidad>
+  </articulos>
+  <precio-total>89</precio-total>
+</factura>
