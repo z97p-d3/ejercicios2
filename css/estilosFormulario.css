@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+textarea{
+	width: 200px;
+}
+
+body {
+	
+	margin: 20px 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+p, label{
+	
+	font-family: Tahoma, "Palatino Linotype", "Century Schoolbook L", "Times New Roman", "serif";
+}
+input[name^=email]{
+	background-color: #eeeeee;}
+
+p:nth-child(4) {
+	color: red;
+}
+
+p> textarea{
+	
+	width:100px;
+}
+
+
+p::first-letter{
+	
+	text-transform:capitalize;
+}
+a :hover{
+	
+	color:green;
+}

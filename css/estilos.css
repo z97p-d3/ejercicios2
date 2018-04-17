@@ -6,13 +6,11 @@ p{
 }
 h1{
 	
-	color: white;
+	color: black;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
 
-body{
-	background-color: black;
-}
+
 a{
 	color: white !important;
 }
@@ -25,3 +23,45 @@ div{
 body p{
 	color:green;
 }
+
+.CuerpoReceta{
+	
+	background-color:white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.Menu-Receta{
+	
+	color:blue;
+}
+
+.Cab-Menu{
+	
+	text-decoration-color: blue;
+	color: black;
+}
+
+.resaltado{
+	background-color: yellow;
+	
+	
+}
+.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding-top: 10px;}
+
+footer{
+	
+	border-top: solid 10px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+img [src~=svg]
+
+
