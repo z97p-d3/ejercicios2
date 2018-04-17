@@ -1,0 +1,81 @@
+body {
+	margin: 20px;
+}
+#destacados {
+	background-color: #669999;
+	
+	text-shadow: 0 0 3px white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+#ofertas {
+	background-color: #F7D988;
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+	border-radius: 15px 10px 6px;
+	
+	
+}
+
+#disponible {
+	background-color: #F7A188;
+	border-radius: 50px 30px 1px 5px;
+		box-shadow: 4px 8px 10px 0 rgba(0,0,0,0,2);
+}
+#contenido > section > h1 {
+	padding: 20px;
+	text-align: center;
+}
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+/* Crea una diagramación de tres filas con display flex.*/
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+/*Agrega a la clase column diagramación en columnas con:*/
+#contenido {
+	display: flex;
+	flex-direction: column;
+}
+/*En la primera fila de "productos destacados" crea una diagramación de 2 columnas y cada producto tendrá la mitad del espacio 50%*/
+#destacados .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background: linear-gradient(#fff,#6788De, #CDEDFF);
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+
+}
+/*En la primera fila de "productos destacados" crea una diagramación de 3 columnas y cada producto tendrá un tercio del espacio 33.3%*/
+#ofertas .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 33.3%;
+	font-family:'Gamja Flower', cursive;
+	box-shadow: 4px 8px 10px 0 rgba(0,0,0,0,2);
+}
+/*En la primera fila de "productos destacados" crea una diagramación de 4 columnas y cada producto tendrá un cuarto del espacio 25%*/
+#disponible .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	border: solid 5px #D46A6A;
+	background: radial-gradient(#FFF,#3399CC, #FFF);
+	width: 25%;
+	box-shadow: 4px 8px #D46A6A;
+}
+
+@font-face{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	src:url(../fuentes/Lato-Black.ttf) 
+		
+}
+
+#destacados::selection;
