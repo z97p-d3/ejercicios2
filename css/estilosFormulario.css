@@ -1,69 +1,49 @@
 @charset "utf-8";
 /* CSS Document */
-textarea{
+textarea {
 	width: 200px;
 }
-
 body {
-	
 	margin: 20px 0px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
-
-p, label{
-	
+p, label {
 	font-family: Tahoma, "Palatino Linotype", "Century Schoolbook L", "Times New Roman", "serif";
 }
-input[name^=email]{
-	background-color: #eeeeee;}
-
+input[name^=email] {
+	background-color: #eeeeee;
+}
 p:nth-child(4) {
 	color: red;
 }
-
-p> textarea{
-	
-	width:100px;
+p> textarea {
+	width: 100px;
 }
-
-
-p::first-letter{
-	
-	text-transform:capitalize;
+p::first-letter {
+	text-transform: capitalize;
 }
-a :hover{
-	
-	color:green;
+a :hover {
+	color: green;
 }
-
-table, td, th{
-	border:1px solid black;
-	
+table, td, th {
+	border: 1px solid black;
 }
-
-table{
+table {
 	width: 50%;
 	border-collapse: collapse;
 }
-
-td, th{
-	
+td, th {
 	width: 100px;
 	height: 30px;
 }
-
-th{
-	
-	text-align:right;
+th {
+	text-align: right;
 	vertical-align: top;
 }
-
-td{
+td {
 	text-align: left;
 	vertical-align: bottom;
 }
-
-tr:nth-child(odd){
-	
+tr:nth-child(odd) {
 	bacKground-color: #D1D1D1;
 }
